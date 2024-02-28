@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=VERSION
+Name=NAME_EXTENDEND
+Comment=NAME_COMMENT
+Exec=NAME
+Icon=${SNAP}/meta/gui/NAME.png 
+Terminal=false
+Type=Application

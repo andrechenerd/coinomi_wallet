@@ -1,0 +1,1 @@
+ /home/strozer/flutter_projects/coinomi2/.dart_tool/flutter_build/7b27a649ca476528a6e2629bc83db46d/native_assets.yaml: 

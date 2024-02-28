@@ -1,0 +1,25 @@
+name: NAME
+base: core18 # the base snap is the execution environment for this snap
+version: 'VERSION' 
+summary: SINGLE_LINE_ELEVATOR_PITCH # 79 char long summary
+description: |
+  SNAP_DESCRIPTION
+
+grade: stable # must be 'stable' to release into candidate/stable channels
+confinement: strict # use 'strict' once you have the right plugs and slots
+icon: snap/gui/NAME.png
+
+
+apps:
+  NAME:
+    command: desktop-launch $SNAP/bin/NAME
+    extensions: [flutter-master]
+    plugs:
+      - network
+      - desktop
+      - home
+parts:
+  NAME:
+    source: .    
+    plugin: flutter
+    flutter-target: lib/main.dart
